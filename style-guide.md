@@ -26,10 +26,3 @@ The designs were created to the following widths:
 
 - Font size (paragraph): 16px
 
-### Fonts
-
-- Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
-- Weights: 400
-
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-- Weights: 400, 600, 700
