@@ -89,3 +89,26 @@
    color: var(--primary-color);
    font-weight: 700;
  }
+
+ table {
+   width: 100%;
+   padding: 1em;
+   border-collapse: collapse;
+ }
+
+ .table_color__red {
+   color: var(--secondary-color);
+   font-weight: 700;
+ }
+
+ table td {
+   padding: 1em;
+ }
+
+ tr {
+   border-bottom: 1px solid var(--grey-border);
+ }
+
+ tr:nth-child(4) {
+   border-bottom: none;
+ }
