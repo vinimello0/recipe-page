@@ -1,6 +1,7 @@
 :root {
     --primary-color: hsl(14, 45%, 36%);
     --secondary-color: hsl(332, 51%, 32%);
+    --grey-border: hsl(30, 18%, 87%);
     --fw-600: 600;
 }
 
@@ -68,9 +69,23 @@
  }
 
  .ingredients {
-    border-bottom: 1px solid hsl(30, 18%, 87%);
+    border-bottom: 1px solid var(--grey-border);
  }
 
  .ingredients ul li {
     padding: .5em;
+ }
+
+ .instructions {
+   border-bottom: 1px solid var(--grey-border);
+ }
+
+ .instructions li {
+   margin-bottom: 1em;
+   padding-left: 1em;
+ }
+
+ ol li::marker {
+   color: var(--primary-color);
+   font-weight: 700;
  }

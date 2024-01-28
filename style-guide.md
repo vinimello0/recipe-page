@@ -9,9 +9,3 @@
 - Wenge Brown: hsl(30, 10%, 34%)
 - Dark Charcoal: hsl(24, 5%, 18%)
 
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 16px
-
